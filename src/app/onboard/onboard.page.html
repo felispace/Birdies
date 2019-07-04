@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Onboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+    <ion-slides pager="true">
+        
+      <ion-slide class=slide-1>
+            <ion-button expand=full color=primary fill=clear (click)="onClick()">
+                Saltar
+              </ion-button>
+          <h1>Slide 1</h1>
+          <ion-button expand=full color=primary fill=clear (click)="onClick()">
+              Siguiente
+            </ion-button>
+        </ion-slide>
+
+        <ion-slide class=slide-2>
+            <ion-button expand=full color=primary fill=clear (click)="onClick()">
+                Saltar
+              </ion-button>
+          <h1>Slide 2</h1>
+          <ion-button expand=full color=primary fill=clear (click)="onClick()">
+              Siguiente
+            </ion-button>
+        </ion-slide>
+
+        <ion-slide class=slide-3>
+          <h1>Birdies!</h1>
+          <ion-button expand=full color=primary (click)="onClick()">
+              Comenzar
+            </ion-button>
+        </ion-slide>
+      </ion-slides>
+ 
+</ion-content>
