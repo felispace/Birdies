@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'onboard', loadChildren: './onboard/onboard.module#OnboardPageModule' },
   { path: 'bandeja-mensajes', loadChildren: './bandeja-mensajes/bandeja-mensajes.module#BandejaMensajesPageModule' },
   { path: 'nuevo-mensaje', loadChildren: './nuevo-mensaje/nuevo-mensaje.module#NuevoMensajePageModule' },
+  { path: 'bandeja-entrada', loadChildren: './bandeja-entrada/bandeja-entrada.module#BandejaEntradaPageModule' },
 ];
 
 @NgModule({
